@@ -24,7 +24,7 @@ Stage 3: ASI Aggregation: Multiplies normalized scores by criteria weights ($CR 
 ├── data/
 │   ├── raw_biochar_dataset.csv       # Raw physicochemical and trace-element properties
 │   └── processed_scores.csv          # Calculated normalized scores and ASI ranks
-├── biochar_analysis_master.R         # Single master R script containing all analyses
+├── biochar_ASI.R                     # Single master R script containing all analyses
 ├── outputs/
 │   ├── figures/                      # Exported vector PDFs (e.g., Figure 1 flowchart)
 │   └── tables/                       # Ranked output tables (e.g., Table S3 top biochars)
@@ -49,7 +49,7 @@ Run the Analysis
 All data cleaning, safety screening, multivariate profiling, AHP weighting, ASI calculation, and vector figure exports are compiled into a single master R script.
 Execute `biochar_analysis_master.R` inside RStudio, or from your system terminal:
 ```
-Rscript biochar_analysis_master.R
+Rscript biochar_ASI.R
 
 ```
 ⚙️ Adapting for Alternative Scenarios
