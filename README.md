@@ -22,8 +22,7 @@ Stage 3: ASI Aggregation: Multiplies normalized scores by criteria weights ($CR 
 📂 Repository Structure
 ```
 ├── data/
-│   ├── raw_biochar_dataset.csv       # Raw physicochemical and trace-element properties
-│   └── processed_scores.csv          # Calculated normalized scores and ASI ranks
+│   └── BC_data.csv                   # Raw biochar sample properties
 ├── biochar_ASI.R                     # Single master R script containing all analyses
 ├── outputs/
 │   ├── figures/                      # Exported vector PDFs (e.g., Figure 1 flowchart)
